@@ -1,0 +1,30 @@
+{
+    "standard.user": {
+        "id": "6b8fc190-2dee-5659-ab41-259af0ab2798",
+        "fullName": "John Doe",
+        "hash": "$2b$12$UX3JQth3U8WF6LupZUiKu.QDXSwp/vkwXSLHpqmcA9r2Yebe.6DcW",
+        "userLevel": 0,
+        "createdAt": 1745307530
+    },
+    "forum.moderator": {
+        "id": "53f7d0c9-22cd-52e5-ab0c-2623e20a51e7",
+        "fullName": "Alice Smith",
+        "hash": "$2b$12$cLUHqKDv5pjVc1vGcOObZOoqW6gaUqQFPbmeVNuNsEo50aApE41re",
+        "userLevel": 1,
+        "createdAt": 1745307627
+    },
+    "sys.admin": {
+        "id": "1838c0d1-8496-5351-b7ee-a36d98eff95f",
+        "fullName": "Bob Johnson",
+        "hash": "$2b$12$Mzwgs4E/d1KuWBNo/ZSkd.WJIk/bJvSViofNEtEOoRD9yOiFRnHyy",
+        "userLevel": 2,
+        "createdAt": 1745307645
+    },
+    "super.admin": {
+        "id": "a62a3c91-fd19-5b4f-b778-79888db850f8",
+        "fullName": "Emma Wilson",
+        "hash": "$2b$12$nFd3bTaojkk3QqX8xwEDDeROqu1sYNpDsWJ5240EwJkx81NWtR6V6",
+        "userLevel": 3,
+        "createdAt": 1745307676
+    }
+}
