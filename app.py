@@ -9,7 +9,7 @@ import bcrypt
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-app = Flask("bleedingheart-api")
+app = Flask("foodello-api")
 CORS(app)
 
 @app.route("/")
@@ -76,7 +76,7 @@ def authorize_user(uname, pw):
     account = accounts[uname]
     hashed = account["hash"].encode()
 
-    if bcrypt.hashpw(pw.encode(), hashed):
+    if bcrypt.checkpw(pw.encode(), hashed):
         user_level = account["userLevel"]
         full_name = account["fullName"]
         return user_level, full_name
